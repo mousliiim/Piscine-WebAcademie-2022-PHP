@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div class="whitebox">
+        <div class="logo">
+        <img alt="Webacademie" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Web%40cad%C3%A9mie_Logo.png">
+        </div>
+    <form method="POST" class="formsp" id="formulaire">
+        <!-- Champs de texte pour renseigner ses informations de connexion -->
+        <div class="formsp">
+            <label for="focusemail">Email :</label>
+            <input id="focusemail" class="email" type="email" name="email" placeholder="Entrez votre mail">
+        </div>
+
+        <div>
+            <label for="focuspsw">Mot de passe :</label>
+            <input id="focuspsw" class="psw" type="password" placeholder="Entrez votre mot de passe" name="psw" required>
+        </div>
+        <div>
+            <input class="souvenirdemoi" type="checkbox" checked="checked" name="remember"><label class="souvenirdemoi">Se souvenir de moi</label>
+        </div>
+        
+        <input id ="submit" class="boutton" type="submit" value="Validation">
+    </form>
+    <a class="linkinscription" href="my_form.html">Pas encore inscrit ?</a>
+    </div>
+    </main>
+</body>
+</html>

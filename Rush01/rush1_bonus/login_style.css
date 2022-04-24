@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ body {
+   background: -webkit-linear-gradient(left,#41dde2, #0276fa);
+   background-size: contain;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+ }
+
+.whitebox {
+   width: 430px;
+   background: #fff;
+   border-radius: 10px;
+   padding: 15px 50px;
+   margin: auto;
+   margin-top: 135px;
+   position: relative;
+   
+   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+   -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+   -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+   -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+form {
+   font-size: 12px;
+   font-family: Poppins;
+
+}
+
+div .email , .psw{
+   border: dashed hsla(205, 69%, 50%, 0.23);
+   
+}
+
+.formsp {
+   padding: 10px;
+}
+
+.souvenirdemoi{
+   margin-top: 10px;
+   accent-color: hsla(205, 69%, 50%, 1);
+}
+
+.logo img {
+   width: 330px;
+   padding-bottom: 5px;
+}
+
+
+label{
+   font-weight: bold;
+}
+
+.formsp label{
+   display: block;
+   float:left;
+   width: 150px;
+}
+
+.whitebox .formsp input{
+   text-align: center;
+}
+
+#submit{
+   color:#000000;
+   padding: 4px 10px;
+   margin: 20px;
+   background: none;
+   border-radius: 5px;
+   font-weight: bold;
+   box-shadow: 3px 2px black;
+   transition: all 0.3s ease-in-out;
+   outline: 1mm ridge transparent;
+}
+
+
+#submit:hover{
+   outline: 1mm outset hsla(205, 69%, 50%, 1);
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2);
+   box-shadow: none;
+}
+
+.linkinscription {
+   margin-left: 300px;
+   font-size: small;
+   color: black;
+   font-family: Poppins;
+   text-decoration: none;
+   
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my_style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <main>
+        <div class="whitebox">
+        <div class="logo">
+        <img alt="Webacademie" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Web%40cad%C3%A9mie_Logo.png">
+        </div>
+    <form method="POST" class="formsp" id="formulaire">
+        <!-- Boutton d'option pour le choix du sexe -->
+        <div class="formsp">
+            <label>Sexe :</label>
+            <input type="radio" name="sexe" value="Homme" id="homme">Homme
+            <input type="radio" name="sexe" value="Femme" id="femme">Femme
+            <input type="radio" name="sexe" value="Autre" id="autre">Autre
+        </div>
+
+        <!-- Liste déroulante pour le choix de la civilité -->
+        <div class="formsp">
+            <label>Civilite :</label>
+            <select class="civilite" name="civilite" id="civilite">
+                <option value="">--Votre Civilite--</option>
+                <option value="Mr">Mr.</option>
+                <option value="Mme">Mme.</option>
+            </select>
+        </div>
+
+        <!-- Champs de texte pour renseigner ses informations -->
+        <div class="formsp">
+            <label for="focusnom">Nom :</label>
+            <input id="focusnom" class="nom" type="text" name="nom" placeholder="Dupont">
+            </div>
+        <div class="formsp">
+            <label for="focusemail">Email :</label>
+            <input id="focusemail" class="email" type="email" name="email" placeholder="exemple@exemple.com">
+            </div>
+        <div class="formsp">
+            <label for="telfocus">Téléphone :</label>
+            <input id="telfocus" class="tel" type="tel" name="telephone" placeholder="0625252525" minlength="10" maxlength="10">
+            </div> 
+        <div class="formsp">
+            <label for="focuswebsite">Website :</label>
+            <input id="focuswebsite" class="website" type="url" name="url" placeholder="www.exemple.fr">
+            </div>
+        <div class="formsp">
+            <label for="focusbirthday">Date de naissance :</label>
+            <input id="focusbirthday" class="date" type="date" name="url">
+        </div>
+
+        <!-- Checkbox pour renseigner ses hobbies -->
+        <div id="hobbies" class="formsp">
+            <label>Hobbies :</label>
+            <input id="jxvideo" type="checkbox" name="hobbies" value="Jeux">Jeux vidéos
+            <input id="cinema" type="checkbox" name="hobbies" value="cinema">Cinema
+            <input id="lecture" type="checkbox" name="hobbies" value="lecture">Lecture
+            <input id="sport" type="checkbox" name="hobbies" value="sport">Sport
+            <input id="informatique" type="checkbox" name="hobbies" value="informatique">Informatique
+        </div>
+
+        <input type="hidden" name="first" value="my first website">
+        <br>
+        <input id ="submit" class="boutton" type="submit" value="Validation">
+    </form>
+    <p id="erreur"></p>
+    </div>
+    </main>
+
+    <script src="my_script.js">
+    </script>
+</body>
+</html>
