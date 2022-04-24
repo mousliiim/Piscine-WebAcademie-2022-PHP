@@ -1,0 +1,4 @@
+<?php
+function 
+
+$boolean = true 
